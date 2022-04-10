@@ -21,8 +21,12 @@
 		10D037F627DCEC2A0067720F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D037F427DCEC1F0067720F /* libsqlite3.0.tbd */; };
 		10D037F727DCEC300067720F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D037F527DCEC1F0067720F /* libsqlite3.tbd */; };
 		10D037F927DCED1C0067720F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D037F827DCED1B0067720F /* Data.swift */; };
+		1DA723A42802663500891D85 /* blackBg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1DA723A32802663500891D85 /* blackBg.jpeg */; };
+		1DEED84B28009DCD001C6A91 /* SiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED84A28009DCD001C6A91 /* SiteCell.swift */; };
+		1DEED84E2800A131001C6A91 /* TicketDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED84C2800A131001C6A91 /* TicketDetailViewController.swift */; };
+		1DEED84F2800A131001C6A91 /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED84D2800A131001C6A91 /* TicketsViewController.swift */; };
+		1DEED8532800A753001C6A91 /* IOSProject.db in Resources */ = {isa = PBXBuildFile; fileRef = 1DEED8522800A753001C6A91 /* IOSProject.db */; };
 		3E66BCC9971E913FE90A3D16 /* Pods_Project_iOS_Project_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A2847E3F6A26FC303B235FE /* Pods_Project_iOS_Project_iOSUITests.framework */; };
-		9216110B27F2A186001FD1D6 /* IOSProject.db in Resources */ = {isa = PBXBuildFile; fileRef = 9216110A27F2A186001FD1D6 /* IOSProject.db */; };
 		9216110E27F2A45A001FD1D6 /* bookticket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9216110C27F2A45A001FD1D6 /* bookticket.jpg */; };
 		9216110F27F2A45A001FD1D6 /* bookmyshow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9216110D27F2A45A001FD1D6 /* bookmyshow.jpg */; };
 		9216111127F2ACF9001FD1D6 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9216111027F2ACF9001FD1D6 /* HelpViewController.swift */; };
@@ -72,10 +76,14 @@
 		10D037F427DCEC1F0067720F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		10D037F527DCEC1F0067720F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		10D037F827DCED1B0067720F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		1DA723A32802663500891D85 /* blackBg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackBg.jpeg; sourceTree = "<group>"; };
+		1DEED84A28009DCD001C6A91 /* SiteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteCell.swift; sourceTree = "<group>"; };
+		1DEED84C2800A131001C6A91 /* TicketDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketDetailViewController.swift; sourceTree = "<group>"; };
+		1DEED84D2800A131001C6A91 /* TicketsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
+		1DEED8522800A753001C6A91 /* IOSProject.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = IOSProject.db; sourceTree = "<group>"; };
 		4F786B0D059BCC2D40CD83AC /* Pods-Project_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_iOS.release.xcconfig"; path = "Target Support Files/Pods-Project_iOS/Pods-Project_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		702DD3F709E08772D0AD36A2 /* Pods_Project_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2847E3F6A26FC303B235FE /* Pods_Project_iOS_Project_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_iOS_Project_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9216110A27F2A186001FD1D6 /* IOSProject.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = IOSProject.db; sourceTree = "<group>"; };
 		9216110C27F2A45A001FD1D6 /* bookticket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bookticket.jpg; sourceTree = "<group>"; };
 		9216110D27F2A45A001FD1D6 /* bookmyshow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bookmyshow.jpg; sourceTree = "<group>"; };
 		9216111027F2ACF9001FD1D6 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
@@ -160,7 +168,7 @@
 		10D037D727DC137A0067720F /* Databases */ = {
 			isa = PBXGroup;
 			children = (
-				9216110A27F2A186001FD1D6 /* IOSProject.db */,
+				1DEED8522800A753001C6A91 /* IOSProject.db */,
 				10D037F127DC28F60067720F /* projDatabase.db */,
 			);
 			path = Databases;
@@ -178,6 +186,7 @@
 		10D037D927DC138F0067720F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1DEED84A28009DCD001C6A91 /* SiteCell.swift */,
 				10D036DF27D029BE0067720F /* SceneDelegate.swift */,
 				10D036DD27D029BE0067720F /* AppDelegate.swift */,
 				10D037F827DCED1B0067720F /* Data.swift */,
@@ -190,6 +199,7 @@
 		10D037DA27DC13970067720F /* Assests */ = {
 			isa = PBXGroup;
 			children = (
+				1DA723A32802663500891D85 /* blackBg.jpeg */,
 				10D036E627D029BF0067720F /* Assets.xcassets */,
 			);
 			path = Assests;
@@ -198,6 +208,8 @@
 		10D037DB27DC139F0067720F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1DEED84C2800A131001C6A91 /* TicketDetailViewController.swift */,
+				1DEED84D2800A131001C6A91 /* TicketsViewController.swift */,
 				10D036E127D029BE0067720F /* ViewController.swift */,
 				10D037DD27DC13DE0067720F /* LoginViewController.swift */,
 				10D037DF27DC13EC0067720F /* RegisterViewController.swift */,
@@ -358,13 +370,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				10D036EA27D029BF0067720F /* LaunchScreen.storyboard in Resources */,
-				9216110B27F2A186001FD1D6 /* IOSProject.db in Resources */,
 				10D036E727D029BF0067720F /* Assets.xcassets in Resources */,
+				1DA723A42802663500891D85 /* blackBg.jpeg in Resources */,
 				9216110E27F2A45A001FD1D6 /* bookticket.jpg in Resources */,
 				9278D07027F3CE9D0025708C /* back.jpg in Resources */,
 				10D037F227DC28F70067720F /* projDatabase.db in Resources */,
 				10D037EC27DC1C850067720F /* bg_main.jpg in Resources */,
 				10D036E527D029BE0067720F /* Main.storyboard in Resources */,
+				1DEED8532800A753001C6A91 /* IOSProject.db in Resources */,
 				9216110F27F2A45A001FD1D6 /* bookmyshow.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +508,7 @@
 			files = (
 				10D037DE27DC13DE0067720F /* LoginViewController.swift in Sources */,
 				10D037F927DCED1C0067720F /* Data.swift in Sources */,
+				1DEED84B28009DCD001C6A91 /* SiteCell.swift in Sources */,
 				10D037E027DC13EC0067720F /* RegisterViewController.swift in Sources */,
 				10D036E227D029BE0067720F /* ViewController.swift in Sources */,
 				E7FDE17C27EEC27600F8C78A /* MovieCollectionViewCell.swift in Sources */,
@@ -504,7 +518,9 @@
 				9216111127F2ACF9001FD1D6 /* HelpViewController.swift in Sources */,
 				E7FDE18027EEDEB800F8C78A /* MovieDetailViewController.swift in Sources */,
 				92FED52C27F2652600E6ECF7 /* BookingViewController.swift in Sources */,
+				1DEED84F2800A131001C6A91 /* TicketsViewController.swift in Sources */,
 				10D036E027D029BE0067720F /* SceneDelegate.swift in Sources */,
+				1DEED84E2800A131001C6A91 /* TicketDetailViewController.swift in Sources */,
 				9231607527F269EF0051668D /* TicketBook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

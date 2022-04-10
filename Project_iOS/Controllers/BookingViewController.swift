@@ -11,7 +11,8 @@ class BookingViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     
     
     var selection: String!
-
+    var selection2: String!
+    
     @IBOutlet var slQuantity : UISlider!
     @IBOutlet var lbQuantity : UILabel!
     @IBOutlet var lbdatetime : UILabel!
@@ -101,7 +102,7 @@ class BookingViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     @IBAction func addTickets(sender:Any){
         
         let ticket : TicketBook = TicketBook.init()
-        ticket.initWithData(theRow: 0, theMoviename: lbmovie.text!, theSeats: lbmovie.text!, theDateTume: lbdatetime.text!, theTicketType: lbtickettype.text!, theTheatre: lbTheatre.text!, theQuantity: lbQuantity.text!)
+        ticket.initWithData(theRow: 0, theMoviename: lbmovie.text!, theSeats: lbseats.text!, theDateTume: lbdatetime.text!, theTicketType: lbtickettype.text!, theTheatre: lbTheatre.text!, theQuantity: lbQuantity.text!,  theImage: selection2!, theEmail: mainDelegate.selectedEmail)
 
         let mDelegate = UIApplication.shared.delegate as! AppDelegate
         

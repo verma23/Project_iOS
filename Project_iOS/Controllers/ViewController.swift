@@ -123,7 +123,7 @@ extension ViewController: UICollectionViewDataSource, UISearchResultsUpdating, U
             dest.selection = movies[index.row].title
             dest.selection1 = movies[index.row].summary
             dest.selection3 = movies[index.row].trailer
-            
+            dest.selection4 = movies[index.row].imageName  //Jashan - sent to movie detail view controller
         }
     }
     

@@ -13,6 +13,7 @@ class MovieDetailViewController: UIViewController,YTPlayerViewDelegate {
     var selection: String!
     var selection1: String!
     var selection3: String!
+    var selection4: String! //Jashan Goyal
     @IBOutlet private weak var MovieLabel: UILabel!
     @IBOutlet private weak var MovieSummary: UILabel!
     @IBOutlet var playerView: YTPlayerView!
@@ -35,7 +36,7 @@ class MovieDetailViewController: UIViewController,YTPlayerViewDelegate {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let dest = segue.destination as? BookingViewController {
             dest.selection = MovieLabel.text
-           
+            dest.selection2 = selection4 // (Jashan Goyal) here movie image name is being sent to booking view Controller Page recieved from 
             
         }
     }

@@ -14,7 +14,7 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
     @IBOutlet var userEmail: UITextField!
     
     @IBOutlet var userPass: UITextField!
-    
+    var email : String = "" //Jashan Goyal
     let mainDelegate = UIApplication.shared.delegate as! AppDelegate
     
    
@@ -23,6 +23,10 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
         let userEmailAdd = userEmail.text
         let user_Pass = userPass.text
         
+        email = userEmail.text ?? "its nil" //Jashan Goyal
+        mainDelegate.selectedEmail = email //Jashan Goyal
+
+        print(mainDelegate.selectedEmail) //Jashan Goyal
         if(((userEmailAdd?.isEmpty) == true) || ((user_Pass?.isEmpty) == true))
         {
             displayMyAlerMessage(userMessage: "All Fields Are Required")
@@ -39,7 +43,7 @@ class LoginViewController: UIViewController,UITextFieldDelegate {
 
         if(result == true)
         {
-            
+            mainDelegate.selectedEmail = userEmail.text!
             performSegue(withIdentifier: "ViewController", sender: self)
          
         }
